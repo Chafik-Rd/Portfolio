@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: progres; /*ตั้งชื่ออะไรก็ได้*/
+    src: url(../fonts/AirTravelersPersonalUse-BdIt.woff);
+}
+
+body {
+    background: black;
+    color: #FFFFFF;
+
+}
+a,a:hover {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    background: rgb(19, 19, 19);
+    /* background-image: url("fik.png");
+    background-size: cover;
+    background-position: center; */
+    
+
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    color: #FFFFFF ;
+    font-family: 'progres';
+    font-size: 40px;
+    margin-left: 50px;
+}
+
+.menu ul {
+    margin-left: 450px;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 80px;
+    align-items: center;
+}
+
+.menu ul li a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.menu ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #c70c3b;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
+}
+
+.banner {
+    color: #FFFFFF;
+    display: flex;
+}
+
+.app-text {
+    width: 60%;
+    padding-left: 80px;
+    line-height: 2;
+    margin-top: 10%;
+}
+
+.app-text h1 {
+    font-size: 60px;
+    position: relative;
+    margin-top: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.app-text h1 span{
+    color: #ea478e;
+}
+
+.btn-group {
+   width: 80%; 
+
+}
+.btn-text {
+    text-indent: 10%;
+    text-align: justify;
+}
+.image{
+    width: 500px;
+    height: 800px;
+    margin-right: 40px;
+}
+.image img{
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 95%;   
+}
+.icon {
+    margin-top: 20px;
+}
+
+.phone,.mail,.home {
+    display: flex;
+    align-items: center;
+}
+.phone h3,.mail h3,.home h3 {
+    margin-left: 20px;
+}
+
+.about {
+    display: block; 
+    margin: 0px 0px 40px 300px;
+}
+.about h1,.myProject h1 {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 10%;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.si {
+    display: flex; 
+}
+
+.skills {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0px 40px 50px 30px;
+    padding: 20px 30px 30px 30px;
+}
+.skills h2 ,.internship h2, .education h2, h1 span,.activities h2,.project h2,.miniProject h2 {
+    color: #ea478e;
+}
+.skills li {
+    padding: 0px 0px 10px 0px;
+}
+.internship {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    width: 32%;
+    margin: 0px 40px 50px 30px;
+    padding: 20px 30px 0px 30px;
+}
+
+.internship li {
+    padding: 0px 0px 10px 0px;
+}
+
+.education {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    width: 68%;
+    margin: 0px 40px 50px 30px;
+    padding: 20px 30px 0px 30px;  
+}
+
+
+.iconSkills {
+    display: flex;
+ 
+}
+.iconSkills {
+    margin-left: 50px;
+}
+.iconSkills img {
+    width: 8%; 
+    margin: 20px 30px 0px 0px;
+}
+
+.myProject,.myActivities {
+    display: block;
+}
+.myProject h1 {
+    margin-left: 300px !important; 
+}
+.project,.miniProject {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    width: 60%;
+    margin: 0px 40px 50px 300px;
+    padding: 30px 30px 0px 30px;
+}
+
+.project h2,.project p,.miniProject h2,.miniProject p{
+    padding: 0px 20px 20px 20px;
+}
+
+.project p,.miniProject p {
+    text-indent: 10%;
+    text-align: justify;
+}
+
+.myActivities h1 {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    width: 11%;
+    padding: 10px 10px 10px 10px;  
+    margin-left: 300px  
+}
+.activities {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    width: 30%;
+    margin: 0px 40px 50px 30px;
+    padding: 20px 30px 30px 30px;
+    margin-left: 300px
+}
+
+.activities li {
+    padding: 0px 0px 10px 0px;
+}
+
+#swiffy-slider {
+    width: 50%;
+    margin-left: 400px;
+}
+
+
+
+
