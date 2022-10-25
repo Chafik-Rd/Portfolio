@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: progres; /*ตั้งชื่ออะไรก็ได้*/
-    src: url(../fonts/AirTravelersPersonalUse-BdIt.woff);
+    src: url(./fonts/AirTravelersPersonalUse-BdIt.woff);
 }
 
 body {
