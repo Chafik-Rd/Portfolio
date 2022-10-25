@@ -261,11 +261,6 @@ ul {
         box-sizing: border-box;
     }
     
-    @font-face {
-        font-family: progres; /*ตั้งชื่ออะไรก็ได้*/
-        src: url(../fonts/AirTravelersPersonalUse-BdIt.woff);
-    }
-    
     body {
         background: black;
         color: #FFFFFF;
