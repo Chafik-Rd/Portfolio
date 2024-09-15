@@ -10,27 +10,27 @@ const Experience = () => {
   const data = [
     {
       id: 1,
-      toppic: "Self Employed",
-      job: "Engineer",
-      period: "Oct 2021 - present",
+      toppic: "Engineer and Service",
+      job: "HMI SCADA & RTU communication",
+      period: "Oct. 2022 - present",
     },
     {
       id: 2,
-      toppic: "Self Employed",
-      job: "Engineer",
-      period: "May 2021 - June 2021",
+      toppic: "Engineer",
+      job: "Maintenance and Operation of Machinery",
+      period: "Jun. 2022 - Jul. 2022",
     },
     {
       id: 3,
-      toppic: "Self Employed",
-      job: "IOT | Internship",
-      period: "May 2021 - June 2021",
+      toppic: "IOT Engineer",
+      job: "Micro(Amp) ampmeter | Internship",
+      period: "Jul. 2021",
     },
     {
       id: 4,
-      toppic: "Self Employed",
-      job: "IOT | Internship",
-      period: "May 2021 - June 2021",
+      toppic: "IOT Engineer",
+      job: "system to detect masks on Raspberry | Internship",
+      period: "Jun. 2021",
     },
   ];
 
