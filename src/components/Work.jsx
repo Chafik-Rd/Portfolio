@@ -17,7 +17,7 @@ const Work = () => {
       details:
         "       This website showcases information and the background about me. It was created using React, which helped me practice and improve my skills with the framework.",
       view: "https://portfolio-chafik.netlify.app/",
-      code: "",
+      code: "https://github.com/Chafik-Rd/Portfolio?tab=readme-ov-file",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const Work = () => {
       details:
         "  This website displays detailed information about the abilities of each Pokemon. It was created to practice using APIs to fetch and display data on the web page.",
       view: "https://pokemon-chafik.netlify.app/",
-      code: "",
+      code: "https://github.com/Chafik-Rd/Personal-Project-Pokemon/tree/main",
     },
   ];
 
