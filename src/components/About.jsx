@@ -41,7 +41,7 @@ const About = () => {
               <span className='text-black font-normal'>Bangkok, Thailand</span>
             </p>
             <a
-              href='https://drive.google.com/file/d/10FrVLnPQxEf5WjO_VlG9E1Q_qwCfsV1t/view?usp=sharing'
+              href='https://drive.google.com/file/d/1bNZYW-g0PO4TL-95UqekE5YyW5DXHNRk/view?usp=sharing'
               target='_blank'
               className='inline-flex text-md font-medium bg-[#244855] mt-3 px-4 py-2 rounded-lg tracking-wide text-white shadow-md hover:scale-110'
             >
