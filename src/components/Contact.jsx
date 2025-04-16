@@ -121,7 +121,7 @@ const Contact = () => {
                 <span className='me-3'>
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                chafikraden@gmil.com
+                chafikraden@gmail.com
               </a>
             </li>
             <li className='mb-2'>
